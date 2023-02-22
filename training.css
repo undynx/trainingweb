@@ -1,0 +1,36 @@
+#div-acordeon{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button.accordion {
+    background-color: rgb(187, 186, 186);
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.accordion:hover {
+    background-color: pink;
+}
+
+.panel {
+    width: 300px;
+    background-color: #eee;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+
